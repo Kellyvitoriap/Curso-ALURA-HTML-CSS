@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+h1{
+    color: aliceblue;
+}
+strong{
+    color:rgb(238, 63, 116);
+}
+p{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+}
+
+.fotoProgamador{
+    width: 300px;
+    border-radius: 25px;
+}
+.principal{
+    display: flex;
+    
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.conteudos{
+    gap: 20px;
+    display: flex;
+    flex-direction:column;
+}
