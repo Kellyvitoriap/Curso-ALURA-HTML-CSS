@@ -1,42 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none
 }
 body{
     background-color: black;
-    padding: 200px;
-}
-
-h1{
     color: aliceblue;
+}
+main{
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 strong{
     color:rgb(238, 63, 116);
 }
-p{
-    color: aliceblue;
-}
-
-a{
-    color: aliceblue;
-}
-
 .fotoProgamador{
     width: 300px;
     border-radius: 25px;
+    border: rgb(238, 63, 116) solid ;
 }
 .principal{
+    
+    gap: 20px;
     display: flex;
+    width: 600px;
     
 }
 .links{
+    font-family: Smooch Sans 100;
     display: flex;
     gap: 20px;
 }
 .conteudos{
+    font-family: Smooch Sans;
+    justify-content: space-between;
     gap: 20px;
     display: flex;
     flex-direction:column;
+}
+a{
+    width: 100px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(238, 63, 116);
+    border: 3px solid #f15295;
+    border-color:rgb(238, 63, 116) ;
+    border-radius: 10px;
+}
+footer{
+    padding: 4rem;
+    font-family: Smooch Sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #8b1c5049;
 }
